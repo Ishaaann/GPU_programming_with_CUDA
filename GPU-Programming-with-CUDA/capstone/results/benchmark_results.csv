@@ -1,0 +1,4 @@
+Matrix_Size,CPU_Time_ms,GPU_Naive_Time_ms,GPU_Shared_Time_ms,CPU_vs_Naive_Speedup,CPU_vs_Shared_Speedup
+64,0.141,295.778,1.757,0.000476709,0.0802504
+128,1.742,1.647,0.894,1.05768,1.94855
+256,12.286,1.576,1.194,7.79569,10.2898

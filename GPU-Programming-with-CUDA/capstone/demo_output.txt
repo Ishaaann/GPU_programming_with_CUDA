@@ -1,0 +1,25 @@
+=== CUDA Matrix Multiplication Benchmark ===
+
+--- Testing 64x64 matrices ---
+Memory required: 0.046875 MB
+Initializing matrices...
+Running CPU implementation...
+CPU time: 0.146 ms
+Running GPU naive implementation...
+GPU naive time: 332.76 ms
+GPU naive verification: PASSED
+Running GPU shared memory implementation...
+GPU shared memory time: 1.946 ms
+GPU shared memory verification: PASSED
+Performance Summary:
+  CPU vs GPU Naive speedup: 0.000438755x
+  CPU vs GPU Shared speedup: 0.0750257x
+  GPU Shared vs Naive speedup: 170.997x
+Results saved to results/benchmark_results.csv
+
+=== Final Performance Summary ===
+Matrix Size | CPU (ms) | GPU Naive (ms) | GPU Shared (ms) | Naive Speedup | Shared Speedup
+------------|----------|----------------|-----------------|---------------|---------------
+         64 |     0.15 |         332.76 |            1.95 |          0.00 |           0.08
+
+Benchmark completed successfully!
